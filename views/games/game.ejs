@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+
+<h1><%= title %></h1>
+
+
+<ul>
+    <% for(var i=0; i<titles.length; i++) {%>
+    <li><a href= <%= titles[i].href %> > <%= titles[i].name %> </a></li>
+    <% } %>
+</ul>
+
+<p> <%= game.title %> </p>
+<ul>
+    <li> <%= game.create_date %> </li>
+    <li> <%= game.last_edit_date %> </li>
+    <li> <%= game.author %> </li>
+</ul>
+
+<p> <%= game.description %> </p>
+
+
+
+
+</body>
+</html>

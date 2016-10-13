@@ -6,6 +6,7 @@ var router = express.Router();
 var controller = {
 
   index : function(req, res, next) {
+      console.log("index...");
     res.render('home/index', {
       title: 'Mingz',
       titles : [

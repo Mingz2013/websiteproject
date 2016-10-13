@@ -11,7 +11,7 @@ var routes = require('./routes/routes');
 var dao = require('./dao/dao');
 
 var app = express();
-
+//console.log("__dirname: " + __dirname);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');

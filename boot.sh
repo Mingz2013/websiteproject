@@ -1,1 +1,2 @@
-supervisor ./bin/www
+#!/usr/bin/env bash
+npm run develop
